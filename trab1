@@ -1,0 +1,29 @@
+public class Balão
+{
+ 
+ String cor;
+ int tam;
+ boolean cheia;
+ 
+ void encher()
+ {
+ cheia = true;
+ }
+ 
+ void esvaziar()
+ {
+ cheia = false;
+ }
+ 
+ void pintar()
+ {
+ cor = vermelha;
+ }
+ 
+ void definirTam(int tam)
+ {
+ if (tam > 0)
+ tamanho = tam;
+ }
+ 
+}
